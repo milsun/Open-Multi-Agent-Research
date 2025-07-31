@@ -199,7 +199,7 @@ class VectorDatabaseManager:
             'msoffcrypto': 'msoffcrypto-tool (for encrypted Office files)',
             'unstructured': 'unstructured (for document processing)',
             'pymupdf': 'pymupdf (for PDF processing)',
-            'python_docx': 'python-docx (for Word documents)',
+            'docx': 'python-docx (for Word documents)',
             'openpyxl': 'openpyxl (for Excel files)',
         }
         
