@@ -126,6 +126,10 @@ task_instruction: |-
   * If the task involves interacting with web pages or conducting web searches, start with the `browser_use_agent` and follow up with the `deep_researcher_agent`.
       - Firstly, please use `browser_use_agent` to search and interact with the most relevant web pages to find the answer. If the answer is found, please output the answer directly.
       - Secondly, if the answer is not found, please use `deep_researcher_agent` to perform extensive web searches to find the answer.
+  * If the task involves searching through documents, files, or knowledge bases, or requires semantic search capabilities, use the `vector_agent` and vector search tools.
+      - Use `vector_agent` for tasks that require searching through document collections, finding similar content, or semantic document retrieval.
+      - Vector search tools are ideal for finding relevant information from large document collections, codebases, or knowledge repositories.
+      - Consider using vector search when the task involves finding specific information within documents, code, or structured data.
   * Run verification steps if that's needed, you must make sure you find the correct answer!
 
   Here is the task:
