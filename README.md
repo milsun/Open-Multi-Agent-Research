@@ -45,6 +45,10 @@
    python main.py
    ```
 
+## 🎥 Demo
+
+📺 **Watch the app in action**: [Walkthrough Demo](https://www.youtube.com/watch?v=BgrS8pHxe9s)
+
 ## 🎯 Usage
 
 When you start the application, you'll see a three-option menu:
